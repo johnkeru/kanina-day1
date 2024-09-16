@@ -1,0 +1,22 @@
+GET http://localhost:5000/users
+###
+GET http://localhost:5000/users/1
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "name 3",
+    "password": "1234",
+    "age": 3
+}
+###
+PUT http://localhost:5000/users/25
+Content-Type: application/json
+
+{
+    "name": "name 20",  
+    "age": 1
+}
+###
+DELETE http://localhost:5000/users/66e7f86129bfa45bd01c8256
